@@ -47,12 +47,20 @@ body{
     border-radius: 50%;
     background-color: blue;
 }
+.hand{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 
 .hand i{
     position: absolute;
     width: 3px;
     height: 70px;
-    background-color: rgb(10, 229, 21);
+    background-color: var(--clr);
+    border-radius: 8px;
 }
 
 
